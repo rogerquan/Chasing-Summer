@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+
+body {
+    padding: 0%;
+    background-color: lightpink;
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 30px;
+    font-family: Acme;
+    color:  #0B4F6C;
+}
+
+nav{
+    height: 80px;
+    position: -webkit-sticky;
+    position: sticky;
+    top:0;
+    background-color: #0B4F6C;
+    margin-left: -50px;
+    margin-top: -50px;
+    margin-right: -10px;
+}
+
+
+nav ul{
+    color: white;
+    background-color: #0B4F6C;
+    position: -webkit-sticky;
+    position: sticky;
+    top:0;
+}
+
+nav ul li{
+    display: inline-block;
+    line-height: 50px;
+    color: white;
+    background-color: #0B4F6C;
+    margin-left:40px;
+}
+
+nav ul li a{
+    float: right;
+    color: white;
+    line-height: 50px;
+    font-size: 25px;
+    padding: 2px 10px;
+    text-transform: uppercase;
+    background-color: #0B4F6C;
+    margin-top: 15px;
+    margin-left: 90px;
+    text-decoration: none;
+}
+
+.logo-image{
+    width:450px;
+    height:100px;
+    border-radius: 50%;
+    overflow: hidden;
+    float: left;
+    margin-top: 10px;
+    margin-left: -40px;
+    
+}
+
+a.active, a:hover{
+    color: #824670;
+    transition: .5s;
+}
+
+p {
+    font-family: acme;
+    font-size: 30px;
+    color: white;
+    display: inline;
+}
+
+
+.title_shop{
+    font-family: acme;
+    font-size: 100px;
+    color: #824670;
+    margin: 10px;
+}
+
+.images {
+    display: flex;
+    flex-flow: row;
+    flex: 1;
+    flex-wrap: wrap;
+    margin: 50px;
+    justify-content: space-evenly;
+
+}
+
+/* Footer Styles */
+
+.socials{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+    background-color: black;
+  
+}
+
+.socials li{
+    margin: 0 10px;
+    background-color: black;
+}
+
+.socials a{
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    
+}
+
+.socials a i{
+    font-size: 1.7rem;
+    background-color: black;
+}
+
+.socials a:hover i{
+    color: #926585;
+}
+
+ul.socials{
+    background-color: black;
+    height: 60px;
+  
+}
+.footer-bottom{
+    background: black;
+    width: 100%;
+    height: 1px;
+    padding: 0;
+    text-align: center;
+    padding-bottom: 60px;
+    
+}
+
+.footer-bottom p{
+    font-size: 5px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+    background: black;
+   
+}
+
+
+.footer-bottom span{
+    text-transform: uppercase;
+    opacity: .4;
+    font-weight: 200;
+    width: 100%;
+}
