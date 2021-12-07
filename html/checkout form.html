@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Payment Checkout Form</title>
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css">
+	<link rel="stylesheet" href="/Users/rogerquan/Downloads/Chasing Summer Project/css/checkout form.css">
+
+</head>
+	
+<div class="wrapper">
+  <div class="payment">
+    <div class="payment-logo">
+        <p>p</p>
+    </div>
+    
+    <form action="/Users/rogerquan/Downloads/Chasing Summer Project/html/purchaseconfirmation.html">
+    <h2>Payment Gateway</h2>
+    <div class="form">
+      <div class="card space icon-relative">
+        <label class="label">Card holder:</label>
+        <input type="text" class="input" name="name" placeholder="Full Name" required>
+        <i class="fas fa-user"></i>
+      </div>
+      <div class="card space icon-relative">
+          <label class="label">EmaiL:
+          <input type="email" class="input" name="email" placeholder="Ex: JohnDoe@gmail.com" required/>
+          <i class="fas fa-at"></i>
+      </div>
+      <div class="card space icon-relative">
+        <label class="label">Card number:</label>
+        <input type="text" class="input" name="card_number" data-mask="0000 0000 0000 0000" placeholder="Card Number" required>
+        <i class="far fa-credit-card"></i>
+      </div>
+      <div class="card-grp space">
+        <div class="card-item icon-relative">
+          <label class="label">Expiry date:</label>
+          <input type="text" name="expiry-data" class="input" data-mask="00 / 00"  placeholder="00 / 00" required>
+          <i class="far fa-calendar-alt"></i>
+        </div>
+        <div class="card-item icon-relative">
+          <label class="label">CVC:</label>
+          <input type="text" class="input" data-mask="000" placeholder="000" required>
+          <i class="fas fa-lock"></i>
+        </div>
+      </div>
+      <div class="btn">
+        <button type="submit">Pay</button>
+      </div> 
+    </form>
+    </div>
+  </div>
+
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.15/jquery.mask.min.js"></script>
+</html>
